@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import * as echarts from 'echarts';
 
 
 import router from './router'
@@ -8,5 +9,5 @@ import router from './router'
 // app.use(router)
 // app.mount('#app')
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).use(echarts).mount('#app')
 
