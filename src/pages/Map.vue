@@ -25,7 +25,7 @@ body,html {
     height: calc(100% + 60px);
     width: 100%;
     background-image: url(../assets/images/map.png);
-    background-size: 100 100%;
+    background-size: 100% 100%;
 }
 
 </style>

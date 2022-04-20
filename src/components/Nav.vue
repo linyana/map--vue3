@@ -128,6 +128,30 @@
                     </div>
                 </div>
             </div>
+            <router-link to="./information">
+                <div class="menu_box">
+                    <span class="menu_box_img_span menu_box_img_span5"></span>
+                    <span class="menu_box_text_span">信息发布</span>
+                </div>
+            </router-link>
+            <router-link to="./area">
+                <div class="menu_box">
+                    <span class="menu_box_img_span menu_box_img_span5"></span>
+                    <span class="menu_box_text_span">区域展示</span>
+                </div>
+            </router-link>
+            <router-link to="./dataQuery">
+                <div class="menu_box">
+                    <span class="menu_box_img_span menu_box_img_span5"></span>
+                    <span class="menu_box_text_span">数据查询</span>
+                </div>
+            </router-link>
+            <router-link to="./feedback">
+                <div class="menu_box">
+                    <span class="menu_box_img_span menu_box_img_span5"></span>
+                    <span class="menu_box_text_span">反馈</span>
+                </div>
+            </router-link>
         </div>
         <div class="user"></div>
     </div>
@@ -160,7 +184,7 @@ export default {};
     left: 380px;
     top: 0;
     display: flex;
-    width: 600px;
+    width: 1000px;
     height: 60px;
     line-height: 60px;
 }
