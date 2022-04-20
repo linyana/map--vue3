@@ -1,5 +1,6 @@
 <template>
     <div id="information">
+        <br />
         <div class="line">
             <div class="left">网商银行将暂停支付宝提现 支付宝: 其他银行服务不变</div>
             <div class="right">2022.4.20</div>
@@ -51,7 +52,7 @@ export default {};
 .line:hover {
     color: white;
     background-color: rgb(201, 201, 201);
-} 
+}
 
 .left {
     position: absolute;
